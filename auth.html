@@ -10,16 +10,23 @@
 body {
     margin: 0;
     font-family: "Noto Sans JP", sans-serif;
-    background: #f5f6fa;
-    color: #333;
+    background: #ffddff;
+    color: #de36ff;
+    background-image: url('cert/img/bg.jpg');
 }
 
 a:link {
+    font-size: 10pt;
+    color: #de36ff;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    color: #ae00d0;
+}
+
+a:visited {
+    color: #de36ff;
 }
 
 .section-title {
@@ -35,7 +42,7 @@ a:hover {
     text-align: center;
     font-size: 1rem;
     margin-bottom: 40px;
-    color: #666;
+    color: #000000;
 }
 
 .container {
@@ -48,7 +55,7 @@ a:hover {
 }
 
 .card {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 18px;
     padding: 35px 20px;
     text-align: center;
@@ -63,6 +70,7 @@ a:hover {
 }
 
 .card:hover {
+    background: rgba(255, 255, 255, 1.0);
     transform: translateY(-8px);
     box-shadow: 0 18px 35px rgba(0,0,0,0.15);
 }
@@ -82,26 +90,26 @@ a:hover {
 }
 
 .card p {
-    font-size: 0.95rem;
+    font-size: 10pt;
     color: #666;
     line-height: 1.5;
     padding: 0 8px;
 }
 
 .footer {
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
     background: #ececec;
     padding: 16px 0;
-    font-size: 0.85rem;
-    color: #555;
+    font-size: 9pt;
+    color: #fff;
+    background: #de36ff;
 }
 .footer a {
-    color: #dd33ff;
-    text-decoration: none;
+    color: #fff;
 }
 .footer a:hover {
-    text-decoration: underline;
+    color: #ffddff;
 }
 
 @media (max-width: 1024px) {
@@ -162,13 +170,14 @@ a:hover {
     </a>
 
 </section>
-<div style="height: 30px;"></div>
+<div style="height: 20px;"></div>
 <p style="text-align: center;">
     <img src="cert/img/cert.png" width="50" height="50">
-    <img src="cert/img/logo_text.png" width="205" height="50">
+    <img src="cert/img/logo_text.png" width="205" height="50"><br>
+    <a href="cert/contact">お問い合わせ</a>｜<a href="cert/jobs">求人情報</a>｜<a href="cert/terms">利用規約</a>｜<a href="cert/privacy">プライバシーポリシー</a>
 </p>
 <footer class="footer">
-    © 2025 オース株式会社 All Rights Reserved. <a href="cert/contact"><font style="color:#de36ff; text-align: center;">お問い合わせ</font></a> | <a href="#">プライバシーポリシー</a>
+    © 2025 オース株式会社 All Rights Reserved.
 </footer>
 
 </body>
