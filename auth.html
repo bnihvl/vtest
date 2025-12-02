@@ -1,5 +1,175 @@
-hello
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="cert/favicon.ico">
+<title>3DDV 映像技術ソリューション｜事業領域</title>
 
-sogoeijfsdfew
+<style>
+body {
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    background: #f5f6fa;
+    color: #333;
+}
 
-wgdfwefsdf
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34pt;
+    margin: 40px 0 -20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.section-sub {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 22px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 26px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 35px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all .35s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 18px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 12px 0 8px;
+    color: #111;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    background: #ececec;
+    padding: 16px 0;
+    font-size: 0.85rem;
+    color: #555;
+}
+.footer a {
+    color: #dd33ff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 620px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card {
+        padding: 30px 20px;
+    }
+}
+</style>
+
+</head>
+<body>
+<div style="text-align: center; margin: 30px 0 -40px;">
+<img src="cert/img/icon.png" width="200" height="auto">
+</div>
+<h1 class="section-title">3DDV 事業領域</h1>
+<p class="section-sub">映像技術開発 × AI統合活用 × 生成用撮影スタジオを軸とした総合ソリューション</p>
+
+<section class="container">
+
+    <a href="studio" class="card">
+        <img src="cert/img/icon5.png">
+        <h3>AIデータ生成用撮影スタジオ</h3>
+        <p>低コストで導入可能なAI映像ソリューションや、AIによる自動分析・認識技術、AI画像解析システム、高品質な映像技術を活用し、お客様の価値創造を支援します。</p>
+    </a>
+
+    <a href="cert" class="card">
+        <img src="cert/img/icon8.png">
+        <h3>ビジネスプラットフォーム（パートナープログラム）</h3>
+        <p>ビジネスプラットフォームは、業務の分配・共有を通じ、撮影・ポストプロダクション従事者が共同で受注できる環境を提供します。パートナーは業務に応じて利益を分配でき、第三方専門認証で信頼性も確保。本プログラムは新たなビジネス機会の創出を支援します。</p>
+    </a>
+
+    <a href="collaboration" class="card">
+        <img src="cert/img/icon3.png">
+        <h3>ポストプロダクション相談室システム</h3>
+        <p>映像制作スタッフとクライアント間の効率的なコミュニケーションを実現します。無延遅スクリーン同期やリアルタイムプレビューなど、高度にカスタマイズ可能なワークフローを活用可能です。</p>
+    </a>
+
+    <a href="manager" class="card">
+        <img src="cert/img/icon6.png">
+        <h3>エックス業務管理システム(開発中・APIリスト)</h3>
+        <p>エックス業務管理システムは、AI映像制作業務の運営効率化と情報一元管理を実現し、制作現場の生産性向上をサポートします。</p>
+    </a>
+
+</section>
+<div style="height: 30px;"></div>
+<p style="text-align: center;">
+    <img src="cert/img/cert.png" width="50" height="50">
+    <img src="cert/img/logo_text.png" width="205" height="50">
+</p>
+<footer class="footer">
+    © 2025 オース株式会社 All Rights Reserved. <a href="cert/contact"><font style="color:#de36ff; text-align: center;">お問い合わせ</font></a> | <a href="#">プライバシーポリシー</a>
+</footer>
+
+</body>
+</html>
